@@ -18,5 +18,25 @@ Prefer not to use var
 because of issue in block scope and functional scope
 */
 
+// var
+function test() {
+  if (true) {
+    var x = 10;
+  }
+  console.log(x); // ✅ 10 (function scoped)
+}
+
+// let
+function test() {
+  if (true) {
+    let x = 10;
+    console.log(x); // ✅ 10
+  }
+  //console.log(x); // ❌ ReferenceError
+}
+
+// const
+const pi = 3.14;
+//pi = 3.15; // ❌ TypeError: Assignment to constant variable
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])

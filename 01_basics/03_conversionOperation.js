@@ -1,3 +1,46 @@
+// ================================Conversion Operations================================
+
+let num = Number(score);        // 42 (number)
+let str = String(100);          // "100" (string)
+let bool = Boolean("hello");    // true
+let empty = Boolean("");        // false
+
+console.log("5" + 2);    // "52" (number 2 is coerced into string)
+console.log("5" - 2);    // 3   (string "5" coerced into number)
+console.log(true + 1);   // 2   (true => 1)
+console.log(false + "3"); // "false3"
+
+
+console.log(Boolean(0));       // false
+console.log(Boolean("0"));     // true
+console.log(Number(null));     // 0
+console.log(Number(undefined));// NaN
+
+
+console.log(null > 0);          // false
+console.log(null == 0);         // false
+console.log(null >= 0);        // true
+
+console.log(undefined == 0);    // false
+console.log(undefined > 0);     // false
+console.log(undefined < 0);     // false
+
+console.log("2" === 2);         // false (strict equality, different types)
+console.log("2" == 2);          // true (loose equality, type coercion)
+console.log("2" !== 2);         // true (strict inequality)
+console.log("2" != 2);          // false (loose inequality, type coercion)
+
+console.log("2" > 1);           // true (string "2" coerced into number)
+console.log("02" > 1);          // true (string "02" coerced into number)
+console.log("2" < 1);           // false (string "2" coerced into number)
+console.log("2" >= 1);          // true (string "2" coerced into number)
+console.log("2" <= 1);          // false (string "2" coerced into number)
+console.log("2" == 1);          // false (string "2" coerced into number)
+
+
+
+// ---------------------------------------------------------------------------------------------------
+
 let score = "hitesh"
 
 //console.log(typeof score);

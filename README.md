@@ -9,7 +9,7 @@ This repository contains my JavaScript learning notes, code, and practice files.
 
 | 📌 Topic Name         | 📁 Repo File Link             | 📝 Note                            | ❗ Important Note |
 |----------------------|------------------------------|------------------------------------|------------------|
-| Variables & Data Types | [01_variables.js](./01_variables.js) | Basic data types, `let`, `const` | <span style="color:red">Use `const` by default</span> |
+| Variables & Data Types | [01_variables.js](./01_basics/01_variables.js) | Basic data types, `let`, `const` | <span style="color:red">Use `const` by default</span> |
 | Functions            | [02_functions.js](./02_functions.js) | Function declaration & expression | <span style="color:red">Avoid using `var`</span> |
 | Arrays               | [03_arrays.js](./03_arrays.js) | Common array methods               | <span style="color:red">Array is reference type</span> |
 | Objects              | [04_objects.js](./04_objects.js) | Object literals and methods        | <span style="color:red">Keys are always strings</span> |

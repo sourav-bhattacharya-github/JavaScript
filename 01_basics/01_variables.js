@@ -1,3 +1,4 @@
+//  ============================================ Variables Declaration ============================================
 //  JavaScript Variables: `var`, `let`, and `const`
 //  - `var` is function-scoped and can lead to hoisting issues.
 //  - `let` and `const` are block-scoped, with `const` being immutable.
@@ -25,6 +26,15 @@ const pi = 3.14;
 
 
 
+
+
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------------------------------
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
